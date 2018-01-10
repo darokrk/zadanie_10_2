@@ -1,8 +1,6 @@
 // przypisujemy co drugiemu elementowi <span> czerwony kolor czcionki
 
 var span = $("span");
-	span.each(function(index, element) {
-});
 
 span.each(function(index, element) {
 	if(index % 2 == 0) {
@@ -30,7 +28,7 @@ paragraphs.each(function(index, element) {
 
 // -----------------------------------------
 
-// dodanie event handlerow (kazdy przycisk ma wyswietlic alert zaw. jego zawartosc)
+// dodanie event handlerow (kazdy przycisk ma wyswietlic alert jego zawartosc)
 
 $("button"). click(function() {
 	alert($(this).attr("data-tmp"));
